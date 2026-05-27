@@ -161,7 +161,7 @@ let package = Package(
             targets: ["RealmSwift"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/bradleyandrew/realm-core.git", branch: "xcode-26.4-fix")
+        .package(url: "https://github.com/fedshitech/realm-core.git", branch: "xcode-26.4-fix")
     ],
     targets: [
       .target(
